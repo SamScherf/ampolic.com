@@ -1,0 +1,12 @@
+[
+    {
+        "label": "Title",
+        "name": "title",
+        "widget": "string"
+    },
+    {
+        "label": "About",
+        "name": "about",
+        "import": "blocks/about"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "label": "About",
+        "name": "about",
+        "widget": "string"
+    }
+]

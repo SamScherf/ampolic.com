@@ -1,0 +1,34 @@
+{
+    "backend": {
+        "name": "github",
+        "repo": "user/repo_name",
+        "branch": "main",
+        "site_domain": "cms.netlify.com",
+        "api_root": "https://api.github.com"
+    },
+    "media_folder": "assets/images",
+    "collections": [
+        {
+            "label": "Settings",
+            "name": "settings",
+            "files": [
+                {
+                    "label": "Nav Bar",
+                    "name": "nav_bar",
+                    "import": "blocks/nav_bar"
+                }
+            ]
+        },
+        {
+            "label": "Pages",
+            "name": "pages",
+            "files": [
+                {
+                    "import": "layouts/homepage",
+                    "label": "Homepage",
+                    "name": "index"
+                }
+            ]
+        }
+    ]
+}
