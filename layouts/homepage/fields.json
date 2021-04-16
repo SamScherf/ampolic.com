@@ -1,12 +1,13 @@
 [
-    {
-        "label": "Title",
-        "name": "title",
-        "widget": "string"
-    },
-    {
-        "label": "About",
-        "name": "about",
-        "import": "blocks/about"
-    }
+	{
+		"label": "Title",
+		"name": "title",
+		"widget": "string"
+	},
+	{
+		
+		"import": "blocks/about",
+		"name":"about",
+		"label": "About"
+	}
 ]
