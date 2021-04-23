@@ -1,0 +1,27 @@
+@font-face {
+        font-family: 'Avenir-Next-Rounded';
+        font-weight: normal;
+        src: url(../fonts/Avenir-Rounded/Regular/Avenir-Rounded-Regular.woff),
+        url(../fonts/Avenir-Rounded/Regular/Avenir-Rounded-Regular.woff2);
+        url(../fonts/Avenir-Rounded/Regular/Avenir-Rounded-Regular.otf);
+}
+
+@font-face {
+        font-family: 'Avenir-Next-Rounded';
+        font-weight: medium;
+        src: url(../fonts/Avenir-Rounded/Medium/Avenir-Rounded-Medium.woff),
+        url(../fonts/Avenir-Rounded/Nedium/Avenir-Rounded-Medium.woff2);
+        url(../fonts/Avenir-Rounded/Nedium/Avenir-Rounded-Medium.otf);
+}
+
+@font-face {
+        font-family: 'Avenir-Next-Rounded';
+        font-weight: bold;
+        src: url(../fonts/Avenir-Rounded/Bold/Avenir-Rounded-Bold.woff),
+        url(../fonts/Avenir-Rounded/Bold/Avenir-Rounded-Bold.woff2);
+        url(../fonts/Avenir-Rounded/Bold/Avenir-Rounded-Bold.otf);
+}
+
+body {
+        font-family: 'Avenir-Next-Rounded';
+}

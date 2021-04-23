@@ -1,13 +1,13 @@
 [
 	{
-		"label": "Title",
-		"name": "title",
-		"widget": "string"
+		"import": "blocks/cover",
+		"label": "Cover",
+		"name":"cover"
 	},
 	{
-		
 		"import": "blocks/about",
-		"name":"about",
-		"label": "About"
+		"label": "About",
+		"name":"about"
 	}
+
 ]

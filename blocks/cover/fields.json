@@ -1,0 +1,17 @@
+[
+    {
+        "label": "Header",
+        "name": "header",
+        "widget": "string"
+    },
+    {
+	"label": "Carrot Link",
+	"name": "link",
+	"widget": "string"
+    },
+    {
+	"label": "Cover Image",
+	"name": "image",
+	"widget": "image"
+    }
+]

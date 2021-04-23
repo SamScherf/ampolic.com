@@ -1,7 +1,12 @@
 [
-    {
-        "label": "About",
-        "name": "about",
-        "widget": "string"
-    }
+	{
+		"label": "Header",
+        	"name": "header",
+        	"widget": "string"
+	},
+	{
+		"label": "Sub Header",
+		"name": "sub_header",
+		"widget": "text"
+	}
 ]
