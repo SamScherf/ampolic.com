@@ -1,7 +1,9 @@
 {
   "title": "Homepage",
   "about": {
-    "about": "Welcome to our site"
+    "about": "Welcome to our site",
+    "header": "Don't Settle For Less",
+    "sub_header": "Ampolic Digital Solutions LLC is a Toledo based digital marketing agency that specializes in helping small businesses grow their online presence. We design all of our websites from scratch to ensure everything we produce is optimized to help you get found organically and give your customers the best experience possible."
   },
   "cover": {
     "header": "Ampolic Digital Solutions",
