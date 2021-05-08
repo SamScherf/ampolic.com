@@ -9,5 +9,8 @@
     "header": "Ampolic Digital Solutions",
     "link": "#about",
     "image": "/images/wayne_trail.jpg"
+  },
+  "key_points": {
+    "icon": "/images/laptop.svg"
   }
 }
