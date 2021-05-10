@@ -11,6 +11,23 @@
     "image": "/images/wayne_trail.jpg"
   },
   "key_points": {
-    "icon": "/images/laptop.svg"
+    "icon": "/images/laptop.svg",
+    "key_points": [
+      {
+        "title": "Web Design",
+        "description": "The first step in creating a great website is having a great design! At Ampolic, we hand craft all of our designs to ensure they look, feel, and function exactly how you want.",
+        "icon": "/images/laptop.svg"
+      },
+      {
+        "title": "SEO",
+        "description": "Our in depth search engine optimization and analytics software ensures that your site ranks high in search engines like Google, Bing!, and Duckduckgo so that you will receive the maximum organic traffic.",
+        "icon": "/images/laptop.svg"
+      },
+      {
+        "title": "Mobile Responsive",
+        "description": "All pages are tested against many different devices so that it is fully functional and responsive on mobile phones, tablets, laptops, and desktop computers.",
+        "icon": "/images/laptop.svg"
+      }
+    ]
   }
 }
