@@ -44,5 +44,9 @@
         "icon": "/images/building.svg"
       }
     ]
+  },
+  "price_cards": {
+    "header": "Prices",
+    "sub_header": "Starting at just $20 a month with no contract, our prices are virtually unbeatable. If you need more than just a landing page, we’ll create a custom package just for you so that you only pay for what you need. From the initial design of your website to the coding and hosting of it, we take care of it all so you don't have to."
   }
 }
