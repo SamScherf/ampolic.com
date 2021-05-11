@@ -32,6 +32,16 @@
         "title": "Security",
         "description": "Here at Ampolic, digital security is one of our specialties. We’re here to help you secure every part of your digital presence from your passwords and files to your website, we do it all.",
         "icon": "/images/shield-lock.svg"
+      },
+      {
+        "title": "Email",
+        "description": "Use our extremely affordable email service to send and receive email from your custom domain business email, with as many additional addresses as you need.",
+        "icon": "/images/envelope.svg"
+      },
+      {
+        "title": "Business Solutions",
+        "description": "Using the latest cloud based software, we can help you maximize your workflow with tools such as file storage, project management, calendars, booking systems, and much more.",
+        "icon": "/images/building.svg"
       }
     ]
   }
