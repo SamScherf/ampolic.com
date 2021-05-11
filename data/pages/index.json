@@ -21,12 +21,17 @@
       {
         "title": "SEO",
         "description": "Our in depth search engine optimization and analytics software ensures that your site ranks high in search engines like Google, Bing!, and Duckduckgo so that you will receive the maximum organic traffic.",
-        "icon": "/images/laptop.svg"
+        "icon": "/images/globe2.svg"
       },
       {
         "title": "Mobile Responsive",
         "description": "All pages are tested against many different devices so that it is fully functional and responsive on mobile phones, tablets, laptops, and desktop computers.",
-        "icon": "/images/laptop.svg"
+        "icon": "/images/phone.svg"
+      },
+      {
+        "title": "Security",
+        "description": "Here at Ampolic, digital security is one of our specialties. We’re here to help you secure every part of your digital presence from your passwords and files to your website, we do it all.",
+        "icon": "/images/shield-lock.svg"
       }
     ]
   }
