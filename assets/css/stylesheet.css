@@ -24,6 +24,11 @@ body {
  * H-Tags
  */
 
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
 h1, .h1 {
 	font-size: calc(3.25em + 0.75vw);
 	font-weight: 500;
@@ -31,14 +36,17 @@ h1, .h1 {
 
 h2, .h2 {
 	font-size: calc(2.25em + 0.75vw);
+	font-weight: 500;
 }
 
 h3, .h3 {
 	font-size: calc(1.25em + 0.75vw);
+	font-weight: 500;
 }
 
 h4, .h4 {
 	font-size: calc(1em + 0.5vw);
+	font-weight: 500;
 }
 
 p, .p {
@@ -81,4 +89,24 @@ a, .a {
 
 .center-text, .text-center {
 	text-align: center;
+}
+
+/*
+ * Padding
+ */
+
+.py-5, .pt-5 {
+	padding-top: 3rem;
+}
+
+.py-5, .pb-5 {
+	padding-bottom: 3rem;
+}
+
+.py-3, .pt-3 {
+	padding-top: 1rem;
+}
+
+.py-3, .pb-3 {
+	padding-bottom: 1rem;
 }

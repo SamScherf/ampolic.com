@@ -8,6 +8,15 @@
 		"import": "blocks/about",
 		"label": "About",
 		"name":"about"
+	},
+	{
+		"import": "blocks/key_points",
+		"label": "Key Points",
+		"name":"key_points"
+	},
+	{
+		"import": "blocks/price_cards",
+		"label": "Pricing",
+		"name":"price_cards"
 	}
-
 ]
