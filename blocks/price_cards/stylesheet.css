@@ -1,25 +1,59 @@
 
-.grid-container {
+.price-grid {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 }
 
 @media only screen and (max-width: 992px) {
-	.grid-container {
+	.price-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.price-grid {
 		grid-template-columns: repeat(1, 1fr);
 	}
 }
 
 
-.flex {
-	display: flex;
+.card {
+	width: 300px;
+	border: 1px solid rgba(0,0,0,0.125);
+	border-radius: .25rem;
 }
 
-.key-icon {
-	width: 70px;
+.card-header {
+	border-radius: calc(0.25rem - 1px) calc(0.25rem -1px) 0 0;
+	background-color: rgba(0,0,0,0.03);
+	border-bottom: 1px solid rgba(0,0,0,0.125);
+	padding: 0.75rem 1.25rem;
 }
 
-.image-div, .text-div {
-	padding-left: 15px;
-	padding-right: 15px;
+.card-body {
+	padding: 1.25rem;
+}
+
+.fake-list {
+	line-height: 3rem;
+}
+
+.muted-text {
+	color: #6c757d;
+}
+
+small {
+	font-size: 80%;
+	font-weight: 400;
+}
+
+.price-button {
+	background-color: #1e73be;
+	color: #ffffff;
+	border: none;
+	font-size: 1.25em;
+	padding: .5em .1em;
+	border-radius: .4em;
+	display: block;
+	width: 100%;
 }

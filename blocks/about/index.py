@@ -1,6 +1,6 @@
 
-from dominate.tags import *
-import dominate
+# Import modules
+from dominate.tags import div, h2, p
 
 
 def main(data):
@@ -13,8 +13,3 @@ def main(data):
     HTML += p(data["sub_header"])
 
     return HTML
-
-    
-
-
-

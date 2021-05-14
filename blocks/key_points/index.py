@@ -1,12 +1,16 @@
-from dominate.tags import div, img, link, h3, p
-from blockable import assets
+# Import dominate
+from dominate.tags import div, img, h3, p
+from dominate.util import raw
 
 
 def main(data):
 
+    # Import css loader
+    from blockable import load_css
+
     # Create div and add css
-    HTML = div(_class="grid-container")
-    HTML += link(href=assets("blocks/key_points/stylesheet.css"), rel="stylesheet")
+    HTML = div(_class="grid")
+    HTML += raw(load_css("blocks/key_points/stylesheet.css"))
 
     for point in data["key_points"]:
         point_div = HTML.add(div(_class="flex"))
