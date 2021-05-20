@@ -8,7 +8,7 @@
   "cover": {
     "header": "Ampolic Digital Solutions",
     "link": "#about",
-    "image": "/images/wayne_trail.jpg"
+    "image": "/images/wayne_trail.webp"
   },
   "key_points": {
     "icon": "/images/laptop.svg",
@@ -65,5 +65,8 @@
         "description": "Email Bundle\nMultipage website\nUnlimited email addresses\nCloud based software"
       }
     ]
+  },
+  "contact": {
+    "header": "Contact Us"
   }
 }
