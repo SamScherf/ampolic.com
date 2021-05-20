@@ -18,5 +18,10 @@
 		"import": "blocks/price_cards",
 		"label": "Pricing",
 		"name":"price_cards"
+	},
+	{
+		"import": "blocks/contact",
+		"label": "Contact Form",
+		"name":"contact"
 	}
 ]

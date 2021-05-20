@@ -56,4 +56,5 @@ small {
 	border-radius: .4em;
 	display: block;
 	width: 100%;
+	cursor: pointer;
 }

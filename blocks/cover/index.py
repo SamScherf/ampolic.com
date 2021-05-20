@@ -1,6 +1,6 @@
 
 # Import dominate
-from dominate.tags import div, h1
+from dominate.tags import div, h1, a
 from dominate.util import raw
 
 def main(data):
@@ -27,13 +27,17 @@ def main(data):
     text_row += h1(data["header"])
 
     # Add down carrot
-    carrot_row = mask.add(div(_class="mt-auto c_link"))
-    carrot_row += raw(
-        """
-        <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-        </svg>
-        """
-        )
+    carrot_row = mask.add(div(_class="mt-auto"))
+    carrot_row += a(
+            raw(
+                """
+                <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                """
+                ),
+            href="#about",
+            _class="white"
+    )
 
     return HTML

@@ -1,0 +1,7 @@
+[
+	{ 
+		"label": "Header",
+		"name": "header",
+		"widget": "string"
+	}
+]

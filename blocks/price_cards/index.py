@@ -24,6 +24,6 @@ def main(data):
 
         card_body += h4(card["price"], small("/mo", _class="muted-text"), _class="h2")
         card_body += p(raw(card["description"].replace("\n", "<br>")), _class="fake-list")
-        card_body += button("Contact Us", _class="price-button", href="#contact")
+        card_body += button("Contact Us", _class="price-button", onclick="location.href='#contact'")
 
     return HTML
