@@ -2,26 +2,31 @@
 	{
 		"import": "blocks/cover",
 		"label": "Cover",
-		"name":"cover"
+		"name": "cover"
 	},
 	{
 		"import": "blocks/about",
 		"label": "About",
-		"name":"about"
+		"name": "about"
 	},
 	{
 		"import": "blocks/key_points",
 		"label": "Key Points",
-		"name":"key_points"
+		"name": "key_points"
 	},
 	{
 		"import": "blocks/price_cards",
 		"label": "Pricing",
-		"name":"price_cards"
+		"name": "price_cards"
 	},
 	{
 		"import": "blocks/contact",
 		"label": "Contact Form",
-		"name":"contact"
+		"name": "contact"
+	},
+	{
+		"import": "blocks/seo",
+		"label": "SEO",
+		"name": "seo"
 	}
 ]
