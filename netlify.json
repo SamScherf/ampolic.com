@@ -19,6 +19,17 @@
                     "name": "index"
                 }
             ]
+        },
+        {
+            "label": "Settings",
+            "name": "settings",
+            "files": [
+                {
+                    "import": "blocks/meta",
+                    "label": "Meta Tags",
+                    "name": "meta"
+                }
+            ]
         }
     ]
 }
