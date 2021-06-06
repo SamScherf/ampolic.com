@@ -1,13 +1,13 @@
 
 # Import dominate
 from dominate.util import raw
-from dominate.tags import div, small, h3, h4, p, button
+from dominate.tags import div, small, h3, h4, p, a, button
 
 
 def main(data):
 
     # Import blockable modules
-    from blockable import load_css
+    from blockable import load_css, load_js
 
     # Create div and add css
     HTML = div(_class="grid-container")
@@ -24,6 +24,6 @@ def main(data):
 
         card_body += h4(card["price"], small("/mo", _class="muted-text"), _class="h2")
         card_body += p(raw(card["description"].replace("\n", "<br>")), _class="fake-list")
-        card_body += button("Contact Us", _class="price-button", onclick="location.href='#contact'")
+        card_body += a(button("Contact Us", _class="price-button"), href="#contact", _class="no_line")
 
     return HTML

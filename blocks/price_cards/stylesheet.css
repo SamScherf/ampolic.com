@@ -59,3 +59,7 @@ small {
 	width: 100%;
 	cursor: pointer;
 }
+
+.no_line {
+	text-decoration: none;
+}
