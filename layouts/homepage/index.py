@@ -20,7 +20,7 @@ def main(data):
             div(blocks.price_cards(data["price_cards"]), _class="py-3", _id="pricing")
 
         # Add contact form
-        div(blocks.contact({}), _id="contact")
+        div(blocks.contact(data["contact"]), _id="contact")
 
     # Return html
     return HTML

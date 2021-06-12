@@ -1,3 +1,8 @@
+"""
+file: block/contact/index.py
+
+This file implements a simple contact form
+"""
 
 # Import dominate
 from dominate.util import raw
@@ -5,38 +10,81 @@ from dominate.tags import div, h2, form, _input, textarea
 
 
 def main(data):
+    """ get contact form html
+
+    """
 
     # Import blockable modules
-    from blockable import load_css
+    from blockable import load_css, load_js
 
     # Create div and add css
     HTML = div(_class="dark-background text-center white-text")
-    HTML += raw(load_css("blocks/contact/stylesheet.css"))
-    container_div = HTML.add(div(_class="py-5 container"))
-    contact_div = container_div.add(div(_class="mx-auto contact-div"))
+    with HTML:
+        raw(load_css("blocks/contact/stylesheet.css"))
+        raw(load_js("blocks/contact/javascript.js"))
+        raw(load_js("assets/js/minAjax.js"))
+        raw("<script src='https://hcaptcha.com/1/api.js' async defer></script>")
 
-    contact_div += h2("Contact Us")
-    form_div = contact_div.add(form(_class="form-grid"))
+        # Start container div
+        with div(_class="py-5 container"):
+            h2(data["header"])
 
-    names_div = form_div.add(div(_class="grid"))
-    names_div += div(
-            _input(placeholder="First Name", _type="text", _class="text-input my-2"),
-            _class="form-row")
+            # Create html form
+            with form(_class="form-grid mx-auto contact-div", _id="form"):
+                # Add first and last _id
+                with div(_class="grid"):
+                    # First name
+                    with div(_class="form-row"):
+                        _input(
+                                placeholder="First Name",
+                                _type="text",
+                                _class="text-input my-2",
+                                _id="first_name",
+                                name="first_name",
+                                )
+                    # Last name
+                    with div(_class="form-row"):
+                        _input(
+                                placeholder="Last Name",
+                                _type="text",
+                                _class="text-input my-2",
+                                _id="last_name",
+                                name="last_name",
+                                )
 
-    names_div += div(
-            _input(placeholder="Last Name", _type="text", _class="text-input my-2"),
-            _class="form-row")
+                # Add email
+                with div(_class="form-row"):
+                    _input(
+                            placeholder="Email",
+                            _type="text",
+                            _class="text-input my-2",
+                            _id="email",
+                            name="email",
+                            )
 
-    form_div += div(
-            _input(placeholder="Email", _type="text", _class="text-input my-2"),
-            _class="form-row")
+                # Add message
+                with div(_class="form-row"):
+                    textarea(
+                            placeholder="Message",
+                            _type="text",
+                            rows="6",
+                            _class="text-input my-2",
+                            _id="message",
+                            name="message",
+                            )
 
-    form_div += div(
-            textarea(placeholder="Message", _type="text", rows="6", _class="text-input my-2"),
-            _class="form-row")
+                # Add h-captcha
+                with div(_class="form-row mx-auto py-2"):
+                    div(_class="h-captcha", data_sitekey="d827d0bd-2dc5-4981-9784-b837691433b8")
 
-    form_div += div(
-            _input(value="Submit", _type="submit", _class="my-2 submit-button"),
-            _class="form-row")
+                # Add submit button
+                with div(_class="form-row"):
+                    _input(
+                            value="Submit",
+                            # _type="submit",
+                            _type="button",
+                            onclick="submitForm()",
+                            _class="my-2 submit-button",
+                            )
 
     return HTML
