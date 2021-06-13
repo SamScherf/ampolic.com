@@ -2,9 +2,7 @@
     "backend": {
         "name": "github",
         "repo": "samscherf/ampolic.com",
-        "branch": "main",
-        "site_domain": "cms.netlify.com",
-        "api_root": "https://api.github.com"
+        "branch": "main"
     },
     "media_folder": "assets/images",
     "public_folder": "/images",
