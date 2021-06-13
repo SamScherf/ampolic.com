@@ -22,8 +22,12 @@ def main(data):
         # Add favicon
         link(rel="icon", _type="image/icon type", href=settings["favicon"])
 
-        # set general meta tags
-        meta(charset="utf-8")
+        # set meta tags
+        meta(name="description", content=data["description"])
+        meta(charset="UTF-8")
+        meta(lang="en")
+        meta(name="robots", content="max-image-preview:large")
+        meta(name="author", content="Ampolic Digital Solutions LLC")
         meta(name="viewport", content="width=device-width, user-scalable=no")
 
     return HTML
