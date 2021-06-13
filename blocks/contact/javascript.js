@@ -1,3 +1,10 @@
+
+function loadCap() {
+	console.log('hCaptcha is ready.');
+	var widgetID = hcaptcha.render('h-captcha', { sitekey: 'd827d0bd-2dc5-4981-9784-b837691433b8'});
+};
+
+
 function submitForm(event) {
 	// Stop non ajax post
 	event.preventDefault();	

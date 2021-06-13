@@ -23,7 +23,7 @@ def main(data):
         raw(load_css("blocks/contact/stylesheet.css"))
         raw(load_js("blocks/contact/javascript.js"))
         raw(load_js("assets/js/minAjax.js"))
-        script(src='https://hcaptcha.com/1/api.js', _async=True, defer=True)
+        script(src='https://hcaptcha.com/1/api.js?render=explicit', _async=True, defer=True)
 
         # Start container div
         with div(_class="py-5 container"):
@@ -101,13 +101,14 @@ def main(data):
                         _id="message",
                         name="message",
                         required=True,
+                        oninput="loadCap()",
+                        autocomplete="off",
                         )
 
                 # Add h-captcha
                 with div(_class="form-row mx-auto py-2"):
                     div(
-                        _class="h-captcha",
-                        data_sitekey="d827d0bd-2dc5-4981-9784-b837691433b8",
+                        _id="h-captcha",
                         )
 
                 # Add submit button
