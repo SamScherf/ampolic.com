@@ -15,10 +15,6 @@
 	display: flex;
 }
 
-.key-icon {
-	width: 70px;
-}
-
 .image-div, .text-div {
 	padding-left: 15px;
 	padding-right: 15px;
