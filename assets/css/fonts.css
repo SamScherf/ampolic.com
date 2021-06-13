@@ -1,27 +1,57 @@
 @font-face {
-        font-family: 'Avenir-Next-Rounded';
-        font-weight: normal;
-        src: url(../fonts/Avenir-Rounded/Regular/Avenir-Rounded-Regular.woff),
-        url(../fonts/Avenir-Rounded/Regular/Avenir-Rounded-Regular.woff2);
-        url(../fonts/Avenir-Rounded/Regular/Avenir-Rounded-Regular.otf);
+	font-family:'Poppins';
+        font-weight: 100;
+        src: url(/fonts/Poppins/Poppins-Thin.ttf);
 }
 
 @font-face {
-        font-family: 'Avenir-Next-Rounded';
-        font-weight: medium;
-        src: url(../fonts/Avenir-Rounded/Medium/Avenir-Rounded-Medium.woff),
-        url(../fonts/Avenir-Rounded/Nedium/Avenir-Rounded-Medium.woff2);
-        url(../fonts/Avenir-Rounded/Nedium/Avenir-Rounded-Medium.otf);
+	font-family:'Poppins';
+        font-weight: 200;
+        src: url(/fonts/Poppins/Poppins-ExtraLight.ttf);
 }
 
 @font-face {
-        font-family: 'Avenir-Next-Rounded';
-        font-weight: bold;
-        src: url(../fonts/Avenir-Rounded/Bold/Avenir-Rounded-Bold.woff),
-        url(../fonts/Avenir-Rounded/Bold/Avenir-Rounded-Bold.woff2);
-        url(../fonts/Avenir-Rounded/Bold/Avenir-Rounded-Bold.otf);
+	font-family:'Poppins';
+        font-weight: 300;
+        src: url(/fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+	font-family:'Poppins';
+        font-weight: 400;
+        src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family:'Poppins';
+        font-weight: 500;
+        src: url(/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+	font-family:'Poppins';
+        font-weight: 600;
+        src: url(/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+	font-family:'poppins';
+        font-weight: 700;
+        src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+	font-family:'poppins';
+        font-weight: 800;
+        src: url(/fonts/poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+	font-family:'poppins';
+        font-weight: 900;
+        src: url(/fonts/poppins/Poppins-Black.ttf);
 }
 
 body {
-        font-family: 'Avenir-Next-Rounded';
+	font-family:'Poppins', sans-serif;
 }

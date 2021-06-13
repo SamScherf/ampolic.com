@@ -11,13 +11,12 @@ def main(data):
 
     # Get data
     settings = site_data("settings/meta")
-    font_link = "https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
 
     HTML = dominate.document(title=data["title"])
     with HTML.head:
         # Add css
         raw(load_css("assets/css/stylesheet.css"))
-        link(href=font_link, rel="stylesheet")
+        raw(load_css("assets/css/fonts.css"))
 
         # Add favicon
         link(rel="icon", _type="image/icon type", href=settings["favicon"])
