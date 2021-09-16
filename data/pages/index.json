@@ -46,22 +46,22 @@
     ]
   },
   "price_cards": {
-    "header": "Prices",
-    "sub_header": "Starting at just $20 a month with no contract, our prices are virtually unbeatable. If you need more than just a landing page, we’ll create a custom package just for you so that you only pay for what you need. From the initial design of your website to the coding and hosting of it, we take care of it all so you don't have to.",
+    "header": "Pricing",
+    "sub_header": "Starting at just $30 a month with no contract, our prices are virtually unbeatable. If you need more than just a landing page, we’ll create a custom package just for you so that you only pay for what you need. From the initial design of your website to the coding and hosting of it, we take care of it all so you don't have to.",
     "cards": [
       {
         "label": "Landing Page",
-        "price": "$20",
+        "price": "$30",
         "description": "One page website\nHosting\nAnalytics\nSEO"
       },
       {
         "label": "Email Bundle",
-        "price": "$25",
+        "price": "$35",
         "description": "Landing Page Bundle\nCustom email domain\nEmail client\nUp to 10 email addresses"
       },
       {
         "label": "Custom Package",
-        "price": "$30+",
+        "price": "$40+",
         "description": "Email Bundle\nMultipage website\nUnlimited email addresses\nCloud based software"
       }
     ]
