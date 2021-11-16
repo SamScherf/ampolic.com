@@ -28,7 +28,7 @@ function submitForm(event) {
 
 	// Send post request
 	minAjax({
-		url:"https://contact.ampolic.com/contact.php",
+		url:"https://contact.ampolic.com/contact.php?UID=mA7jKe",
 		type:"POST",
 		data: data,
 		success: function(response) {
