@@ -8,40 +8,40 @@
   "cover": {
     "header": "Ampolic Digital Solutions",
     "link": "#about",
-    "image": "/images/wayne_trail.webp"
+    "image": "/assets/images/wayne_trail.webp"
   },
   "key_points": {
-    "icon": "/images/laptop.svg",
+    "icon": "/assets/images/laptop.svg",
     "key_points": [
       {
         "title": "Web Design",
         "description": "The first step in creating a great website is having a great design! At Ampolic, we hand craft all of our designs to ensure they look, feel, and function exactly how you want.",
-        "icon": "/images/laptop.svg"
+        "icon": "/assets/images/laptop.svg"
       },
       {
         "title": "SEO",
         "description": "Our in depth search engine optimization and analytics software ensures that your site ranks high in search engines like Google, Bing!, and Duckduckgo so that you will receive the maximum organic traffic.",
-        "icon": "/images/globe2.svg"
+        "icon": "/assets/images/globe2.svg"
       },
       {
         "title": "Mobile Responsive",
         "description": "All pages are tested against many different devices so that it is fully functional and responsive on mobile phones, tablets, laptops, and desktop computers.",
-        "icon": "/images/phone.svg"
+        "icon": "/assets/images/phone.svg"
       },
       {
         "title": "Security",
         "description": "Here at Ampolic, digital security is one of our specialties. We’re here to help you secure every part of your digital presence from your passwords and files to your website, we do it all.",
-        "icon": "/images/shield-lock.svg"
+        "icon": "/assets/images/shield-lock.svg"
       },
       {
         "title": "Email",
         "description": "Use our extremely affordable email service to send and receive email from your custom domain business email, with as many additional addresses as you need.",
-        "icon": "/images/envelope.svg"
+        "icon": "/assets/images/envelope.svg"
       },
       {
         "title": "Business Solutions",
         "description": "Using the latest cloud based software, we can help you maximize your workflow with tools such as file storage, project management, calendars, booking systems, and much more.",
-        "icon": "/images/building.svg"
+        "icon": "/assets/images/building.svg"
       }
     ]
   },

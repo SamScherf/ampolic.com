@@ -7,7 +7,7 @@ from dominate.util import raw
 def main(data):
 
     # Import modules
-    from blockable import save_css, load_css
+    from blockable import save_css, load_css, move_asset
 
     # Create divs for cover and add css
     with div() as HTML:
@@ -18,7 +18,7 @@ def main(data):
             .cover-image {
                 background-image: url(%s)
             }
-            """ % data["image"]))
+            """ % move_asset(data["image"])))
 
         # Add cover and mask
         with div(_class="full-cover cover-image"):

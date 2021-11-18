@@ -7,10 +7,10 @@ from dominate.util import raw
 
 def main(data):
 
-    from blockable import load_css, site_data
+    from blockable import load_css, get_page
 
     # Get data
-    settings = site_data("settings/meta")
+    settings = get_page("settings/meta")
 
     HTML = dominate.document(title=data["title"])
     with HTML.head:
